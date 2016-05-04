@@ -12,14 +12,14 @@
 */
 
 use Illuminate\Http\Request;
-use Jclyons52\PagePreview\PreviewBuilder;
+use Jclyons52\PagePreview\PreviewManager;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('previews', function(Request $request) {
-    $preview = PreviewBuilder::create()->fetch($request->input('link'));
+    $preview = PreviewManager::create()->fetch($request->input('link'));
 
     // $preview->setViewPath(base_path('resources/views/links'));
 
