@@ -14,8 +14,9 @@
         <br>
         <div class="row" v-for="link in links">
             <div style="height: 100px;">
-                {{{ link }}}
+                {{{ link.preview }}}
             </div>
+            <pre>{{ link.json | json 4 }}</pre>
         </div>
     </div>
     <div class="col-sm-2">

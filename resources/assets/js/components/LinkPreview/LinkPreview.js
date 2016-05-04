@@ -20,7 +20,7 @@ export default {
         })
         .then((response) => {
         console.log(response)
-        that.links.push(response.preview)
+        that.links.push(response)
       })
     }
   }
