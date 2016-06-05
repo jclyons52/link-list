@@ -11546,7 +11546,7 @@ setTimeout(function () {
 module.exports = Vue;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"_process":1}],27:[function(require,module,exports){
-module.exports = '<div class="container">\n    <div class="col-sm-2">\n\n    </div>\n    <div class="col-sm-8">\n        <div class="row">\n            <div class="form-group">\n                <input class="form-control" type="text" v-model="newLink">\n            </div>\n\n            <div class="btn btn-primary" v-on:click="upload()">Submit</div>\n        </div>\n        <br>\n        <br>\n        <div class="row" v-for="link in links">\n            <div style="height: 100px;">\n                {{{ link.preview }}}\n            </div>\n            <pre>{{ link.json | json 4 }}</pre>\n        </div>\n    </div>\n    <div class="col-sm-2">\n\n    </div>\n\n</div>';
+module.exports = '<div class="container">\n    <div class="col-sm-2">\n\n    </div>\n    <div class="col-sm-8">\n        <div class="row">\n            <div class="form-group">\n                <input class="form-control" type="text" v-model="newLink">\n            </div>\n\n            <div class="btn btn-primary" v-on:click="upload()">Submit</div>\n        </div>\n        <br>\n        <br>\n        <div class="row" v-for="link in links">\n            <div style="height: 100px;">\n                {{{ link.preview }}}\n            </div>\n            <br>\n            <br>\n            <pre>{{ link.json | json 4 }}</pre>\n            <br>\n            <br>\n        </div>\n    </div>\n    <div class="col-sm-2">\n\n    </div>\n\n</div>';
 },{}],28:[function(require,module,exports){
 'use strict';
 
@@ -11579,7 +11579,7 @@ exports.default = {
         return response.json();
       }).then(function (response) {
         console.log(response);
-        that.links.push(response);
+        that.links.unshift(response);
       });
     }
   }

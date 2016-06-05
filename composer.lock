@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e7c53b8091e1b56cf1210e2cae659558",
-    "content-hash": "82c3b930550e4e325f0cf8d97da285b7",
+    "hash": "43e2add50c0095a1fde217096201c887",
+    "content-hash": "c80d9efa911b0508526320c129b864c8",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -250,16 +250,16 @@
         },
         {
             "name": "jclyons52/page-preview",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jclyons52/page-preview.git",
-                "reference": "46e49f14b7b47a0c97c59ef4724bca88f5b4775a"
+                "reference": "ae312b859fbe533d643a8bba6bc53c69fd94cc0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jclyons52/page-preview/zipball/46e49f14b7b47a0c97c59ef4724bca88f5b4775a",
-                "reference": "46e49f14b7b47a0c97c59ef4724bca88f5b4775a",
+                "url": "https://api.github.com/repos/jclyons52/page-preview/zipball/ae312b859fbe533d643a8bba6bc53c69fd94cc0e",
+                "reference": "ae312b859fbe533d643a8bba6bc53c69fd94cc0e",
                 "shasum": ""
             },
             "require": {
@@ -274,11 +274,6 @@
                 "tedivm/stash": "^0.14.1"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Jclyons52\\PagePreview\\": "src"
@@ -302,7 +297,7 @@
                 "Jclyons52",
                 "page-preview"
             ],
-            "time": "2016-05-04 01:01:33"
+            "time": "2016-05-04 03:21:36"
         },
         {
             "name": "jclyons52/php-query",
@@ -3204,9 +3199,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "jclyons52/page-preview": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
