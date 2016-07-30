@@ -3,7 +3,7 @@
 <head>
     <title>
         @section('title')
-            Link List
+            Link List Fooooo Bar
         @show
     </title>
 
