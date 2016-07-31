@@ -3,7 +3,7 @@
 <head>
     <title>
         @section('title')
-            Link List Fooooo Bar
+            Link List
         @show
     </title>
 
@@ -12,7 +12,7 @@
 <body>
 
 @include('nav')
-
+<h1>foooo</h1>
 @yield('content')
 
 <script src="/js/main.js"></script>
